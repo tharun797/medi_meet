@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 const kPrimaryColour = Color(0XFFFAFDF0);
@@ -8,7 +6,6 @@ const kLightBlue = Color(0XFF327CA0);
 const kWhite = Colors.white;
 const kBlack = Colors.black;
 
-
-var kSizedBoxH10 = SizedBox(
+var kSizedBoxH10 = const SizedBox(
   height: 10,
 );
